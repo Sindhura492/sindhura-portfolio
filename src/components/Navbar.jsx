@@ -1,12 +1,11 @@
 import { useState } from "react";
-
 import { navLinks } from "../constants/index.js";
 
-const NavItems = () => (
+const NavItems = ({ onClick = () => {} }) => (
 	<ul className="nav-ul">
 		{navLinks.map((item) => (
 			<li key={item.id} className="nav-li">
-				<a href={item.href} className="nav-li_a" onClick={() => {}}>
+				<a href={item.href} className="nav-li_a" onClick={onClick}>
 					{item.name}
 				</a>
 			</li>
@@ -16,6 +15,7 @@ const NavItems = () => (
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
+
 	const toggleMenu = () => setIsOpen(!isOpen);
 	const closeMenu = () => setIsOpen(false);
 
@@ -33,11 +33,11 @@ const Navbar = () => {
 					<button
 						type="button"
 						onClick={toggleMenu}
-						className="text-neutral-400 hover:text-white focus:outline-none sm:hidden"
+						className="text-neutral-400 hover:text-white focus:outline-none sm:hidden flex"
 						aria-label="Toggle menu"
 					>
 						<img
-							src={isOpen ? "assets/close.svg" : "assets/menu.svg"}
+							src={`/assets/${isOpen ? "close.svg" : "menu.svg"}`}
 							alt="toggle"
 							className="w-6 h-6"
 						/>

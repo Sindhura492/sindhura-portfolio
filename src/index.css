@@ -55,8 +55,8 @@ body {
 		@apply relative inline-flex rounded-full h-3 w-3 bg-green-500;
 	}
 
-	/* home section */
-	.home_tag {
+	/* hero section */
+	.hero_tag {
 		@apply text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-generalsans font-black !leading-normal;
 	}
 
