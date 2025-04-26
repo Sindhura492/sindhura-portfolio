@@ -106,6 +106,12 @@ body {
 
 	.work-canvas {
 		@apply col-span-1 rounded-lg bg-black-200 border border-black-300;
+		padding-top: 20px; /* Adjust the value as needed */
+	}
+
+	.work-canvas img {
+		display: block; /* Ensures the image respects the padding/margin */
+		margin-top: 80px; /* Adds space at the top of the image */
 	}
 
 	.work-content {

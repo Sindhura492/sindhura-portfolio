@@ -9,7 +9,7 @@ const Footer = () => {
 				</div>
 				<div className="social-icon">
 					<img
-						src="/assets/twitter.svg"
+						src="/assets/linkedin.svg"
 						alt="linkedin"
 						className="w-1/2 h-1/2"
 					/>

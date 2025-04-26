@@ -11,62 +11,34 @@ export const navLinks = [
 	},
 	{
 		id: 3,
-		name: "Work",
-		href: "#work",
+		name: "Experience",
+		href: "#experience",
 	},
 	{
 		id: 4,
+		name: "Projects",
+		href: "#projects",
+	},
+
+	{
+		id: 5,
 		name: "Contact",
 		href: "#contact",
 	},
 ];
 
-export const clientReviews = [
-	{
-		id: 1,
-		name: "Emily Johnson",
-		position: "Marketing Director at GreenLeaf",
-		img: "assets/review1.png",
-		review:
-			"Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-	},
-	{
-		id: 2,
-		name: "Mark Rogers",
-		position: "Founder of TechGear Shop",
-		img: "assets/review2.png",
-		review:
-			"Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.",
-	},
-	{
-		id: 3,
-		name: "John Dohsas",
-		position: "Project Manager at UrbanTech ",
-		img: "assets/review3.png",
-		review:
-			"I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-	},
-	{
-		id: 4,
-		name: "Ether Smith",
-		position: "CEO of BrightStar Enterprises",
-		img: "assets/review4.png",
-		review:
-			"Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
-	},
-];
-
 export const myProjects = [
 	{
-		title: "Podcastr - AI Podcast Platform",
-		desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
+		title: "MIRA - AI Assisted Chatbot for Cybersecurity",
+		desc: "MIRA is an AI-assisted cybersecurity chatbot that scans URLs, provides threat reports with CVE details, and integrates with ZAP for scanning and SonarQube for code analysis. It offers features like action cards, email agents for CVE updates, and the ability to generate and save vulnerability and chat summaries. The app also includes a tutorial, FAQ section, and a dashboard to track scan results. Additionally, MIRA uses OpenAI's API to enhance its functionality and provide intelligent responses.",
 		subdesc:
-			"Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
-		href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
-		texture: "/textures/project/project1.mp4",
-		logo: "/assets/project-logo1.png",
+			"The frontend is built using TypeScript and Tailwind CSS for a responsive and modern interface, while the backend utilizes Node.js with Bun for efficient performance. Zustand is used for state management, and Convex DB manages chat data.",
+
+		href: "https://gitlab.hrz.tu-chemnitz.de/vsr/edu/planspiel/ws2425/group12-denkminds",
+		texture: "/textures/project/mira.mp4",
+		logo: "/assets/mira.png",
 		logoStyle: {
-			backgroundColor: "#2A1816",
+			backgroundColor: "#000000",
 			border: "0.2px solid #36201D",
 			boxShadow: "0px 0px 60px 0px #AA3C304D",
 		},
@@ -84,28 +56,28 @@ export const myProjects = [
 			},
 			{
 				id: 3,
-				name: "TypeScript",
+				name: "Typescript",
 				path: "/assets/typescript.png",
 			},
 			{
 				id: 4,
-				name: "Framer Motion",
-				path: "/assets/framer.png",
+				name: "Node.js",
+				path: "/assets/node.svg",
 			},
 		],
 	},
 	{
-		title: "LiveDoc - Real-Time Google Docs Clone",
-		desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
+		title: "Compass4Chemnitz - Map Application",
+		desc: "This application helps Chemnitz residents find nearby educational institutions like Grundschule, Kindergarten, Jugendberufshilfe, and Schulsozialarbeit based on location. Users can view institutions on a map, access contact information, and favorite institutions. A cron job ensures real-time updates for accurate data.",
 		subdesc:
-			"With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
-		href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
-		texture: "/textures/project/project2.mp4",
-		logo: "/assets/project-logo2.png",
+			"Built with React and Vite for the frontend, and Django with Python for the backend, managing geographic and contact data.",
+		href: "https://github.com/Sindhura492/Compass4Chemnitz",
+		texture: "/textures/project/compass.mp4",
+		logo: "/assets/destination.png",
 		logoStyle: {
-			backgroundColor: "#13202F",
+			backgroundColor: "#000000",
 			border: "0.2px solid #17293E",
-			boxShadow: "0px 0px 60px 0px #2F6DB54D",
+			boxShadow: "0px 0px 60px 0px #000000",
 		},
 		spotlight: "/assets/spotlight2.png",
 		tags: [
@@ -116,34 +88,27 @@ export const myProjects = [
 			},
 			{
 				id: 2,
-				name: "TailwindCSS",
-				path: "assets/tailwindcss.png",
+				name: "Python",
+				path: "assets/python.png",
 			},
 			{
 				id: 3,
-				name: "TypeScript",
-				path: "/assets/typescript.png",
-			},
-			{
-				id: 4,
-				name: "Framer Motion",
-				path: "/assets/framer.png",
+				name: "Django",
+				path: "/assets/django.svg",
 			},
 		],
 	},
 	{
-		title: "CarePulse - Health Management System",
-		desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
+		title: "Portfolio Website",
+		desc: "The portfolio website showcases the user's background with a homepage featuring 3D animations, an about section, a contact section, and separate sections for experience and projects. The website highlights the user's skills and achievements in a dynamic and visually appealing way.",
 		subdesc:
-			"With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
-		href: "https://www.youtube.com/watch?v=lEflo_sc82g",
-		texture: "/textures/project/project3.mp4",
-		logo: "/assets/project-logo3.png",
+			"Built with React for the frontend, styled using Tailwind CSS, and enhanced with 3D animations using React Three Fiber.",
+		href: "https://github.com/Sindhura492/sindhura-portfolio",
+		texture: "/textures/project/portfolio.mp4",
+		logo: "/assets/sindhura-logo.png",
 		logoStyle: {
-			backgroundColor: "#60f5a1",
-			background:
-				"linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
-			border: "0.2px solid rgba(208, 213, 221, 1)",
+			backgroundColor: "#000000",
+			border: "0.2px solid #17293E",
 			boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
 		},
 		spotlight: "/assets/spotlight3.png",
@@ -160,26 +125,50 @@ export const myProjects = [
 			},
 			{
 				id: 3,
-				name: "TypeScript",
-				path: "/assets/typescript.png",
-			},
-			{
-				id: 4,
-				name: "Framer Motion",
-				path: "/assets/framer.png",
+				name: "React Three Fiber",
+				path: "/assets/fiber.png",
 			},
 		],
 	},
 	{
-		title: "Horizon - Online Banking Platform",
-		desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
+		title: "denkMinds Website",
+		desc: "The website for Denkminds showcases the company's mission, team, and key features of the application they provide. It also includes a milestones section and blog posts that narrate the journey of the company.",
+
 		subdesc:
-			"Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
-		href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
-		texture: "/textures/project/project4.mp4",
-		logo: "/assets/project-logo4.png",
+			"Developed using Next.js for the frontend, and styled with Tailwind CSS to ensure a responsive and sleek design.",
+
+		href: "https://github.com/Uyadav207/denkMinds",
+		texture: "/textures/project/denkminds.mp4",
+		logo: "/assets/denkminds.png",
 		logoStyle: {
-			backgroundColor: "#0E1F38",
+			backgroundColor: "#000000",
+			border: "0.2px solid #0E2D58",
+			boxShadow: "0px 0px 60px 0px #2F67B64D",
+		},
+		spotlight: "/assets/spotlight1.png",
+		tags: [
+			{
+				id: 1,
+				name: "Next.js",
+				path: "/assets/react.svg",
+			},
+			{
+				id: 2,
+				name: "TailwindCSS",
+				path: "assets/tailwindcss.png",
+			},
+		],
+	},
+	{
+		title: "BPMN HR Dashboard",
+		desc: "The BPMN dashboard for HRs is a chatbot that leverages OpenAI's API to assist HR professionals in creating BPMN diagrams for processes such as hiring, employee onboarding, termination, and leave management. It provides templates for ease of use, and users can modify, save, and organize the diagrams in folders.(In Progress)",
+		subdesc:
+			"Built using TypeScript and Tailwind CSS for the frontend, and Node.js for the backend, with OpenAI's API integrated into the chatbot for enhanced functionality.",
+
+		texture: "/textures/project/bpmn.mp4",
+		logo: "/assets/bpmn_logo.png",
+		logoStyle: {
+			backgroundColor: "#000000",
 			border: "0.2px solid #0E2D58",
 			boxShadow: "0px 0px 60px 0px #2F67B64D",
 		},
@@ -201,46 +190,45 @@ export const myProjects = [
 				path: "/assets/typescript.png",
 			},
 			{
-				id: 4,
-				name: "Framer Motion",
-				path: "/assets/framer.png",
+				id: 3,
+				name: "Node.js",
+				path: "/assets/node.svg",
 			},
 		],
 	},
+
 	{
-		title: "Imaginify - AI Photo Manipulation App",
-		desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
+		title: "Breast Cancer Detection using ML Techniques",
+		desc: "The breast cancer detection project uses machine learning to analyze X-ray and scan images for detecting tumors. The model classifies the tumor as either benign or malignant based on the uploaded images. The project provides a user-friendly interface for uploading images and receiving results.",
 		subdesc:
-			"Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
-		href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
-		texture: "/textures/project/project5.mp4",
-		logo: "/assets/project-logo5.png",
+			"Built with Django and Python for the backend to handle image processing and machine learning model integration, and Bootstrap for the frontend to ensure a responsive and intuitive user interface.",
+		texture: "/textures/project/breast_cancer.mp4",
+		logo: "/assets/spotlight5.png",
 		logoStyle: {
-			backgroundColor: "#1C1A43",
-			border: "0.2px solid #252262",
-			boxShadow: "0px 0px 60px 0px #635BFF4D",
+			backgroundColor: "transparent",
 		},
 		spotlight: "/assets/spotlight5.png",
 		tags: [
 			{
 				id: 1,
-				name: "React.js",
-				path: "/assets/react.svg",
+				name: "Javascript",
+				path: "/assets/js.webp",
 			},
 			{
 				id: 2,
-				name: "TailwindCSS",
-				path: "assets/tailwindcss.png",
+				name: "Bootstrap",
+				path: "assets/bootstrap.png",
 			},
+
 			{
 				id: 3,
-				name: "TypeScript",
-				path: "/assets/typescript.png",
+				name: "Python",
+				path: "/assets/python.png",
 			},
 			{
 				id: 4,
-				name: "Framer Motion",
-				path: "/assets/framer.png",
+				name: "Django",
+				path: "/assets/django.svg",
 			},
 		],
 	},
@@ -284,32 +272,42 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
 	{
 		id: 1,
-		name: "Framer",
-		pos: "Lead Web Developer",
-		duration: "2022 - Present",
+		name: "Fraunhofer FOKUS , Berlin",
+		pos: "Research Student",
+		duration: "05/2024 - Present",
 		title:
-			"Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-		icon: "/assets/framer.svg",
-		animation: "victory",
+			"Contributed to knowledge graph development for generating handover action predictions and frontend development using Next.js. Participated in developing an XApp for cellular handover, focusing on enhancing network performance.",
+		icon: "/assets/icon.webp",
+		image: "/assets/waving.png",
 	},
 	{
 		id: 2,
-		name: "Figma",
-		pos: "Web Developer",
-		duration: "2020 - 2022",
+		name: "Rakuten, Bengaluru(India)",
+		pos: "Associate Software Engineer",
+		duration: "12/2022 - 07/2023",
 		title:
-			"Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-		icon: "/assets/figma.svg",
-		animation: "clapping",
+			"Promoted to Associate Software Engineer, leading the development of a secure web app with ReactJS, Django, and PostgreSQL. Spearheaded a Ruby-to-Python migration and designed an HR Management Tool. Optimized media handling and document management.",
+		icon: "/assets/rakuten.svg",
+		image: "/assets/promotion.png",
 	},
 	{
 		id: 3,
-		name: "Notion",
-		pos: "Junior Web Developer",
-		duration: "2019 - 2020",
+		name: "Rakuten, Bengaluru(India)",
+		pos: "Technical Intern",
+		duration: "03/2022 - 12/2022",
 		title:
-			"Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-		icon: "/assets/notion.svg",
-		animation: "salute",
+			"Contributed to 4 major agile projects, including an Employee Feedback Platform with Python, Flask, Plotly, and Dash, and a Role-Based Web App with Python, Django, and MySQL. Designed a dynamic Bootstrap website for an internal brand event, combining creativity with functionality.",
+		icon: "/assets/rakuten.svg",
+		image: "/assets/working.png",
+	},
+	{
+		id: 4,
+		name: "Acranton Technologies",
+		pos: " Intern",
+		duration: "04/2021 - 07/2021",
+		title:
+			"Explored major Python libraries like OpenCV, NumPy, Pandas, and Seaborn, and developed a project on an Image Recognition System.",
+		icon: "/assets/acranton.png",
+		image: "/assets/intern.png",
 	},
 ];

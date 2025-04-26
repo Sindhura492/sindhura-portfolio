@@ -1,9 +1,12 @@
 import React from "react";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import useAlert from "../hooks/useAlert.js";
+import Alert from "../elements/Alert.jsx";
 
 const Contact = () => {
 	const formRef = useRef();
+	const { alert, showAlert, hideAlert } = useAlert();
 	const [form, setForm] = useState({ name: "", email: "", message: "" });
 	const [loading, setLoading] = useState(false);
 
@@ -61,7 +64,8 @@ const Contact = () => {
 	};
 
 	return (
-		<section className="c-spac my-20">
+		<section className="c-spac my-20" id="contact">
+			{alert.show && <Alert {...alert} />}
 			<div className="relative min-h-screen flex items-center justify-center flex-col">
 				<img
 					src="/assets/terminal.png"

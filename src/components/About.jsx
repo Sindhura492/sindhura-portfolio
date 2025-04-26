@@ -6,7 +6,7 @@ const About = () => {
 	const [hasCopied, setHasCopied] = useState(false);
 
 	const handleCopy = () => {
-		navigator.clipboard.writeText(" adrian@jsmastery.pro");
+		navigator.clipboard.writeText(" sindhura7649@gmail.com");
 		setHasCopied(true);
 
 		setTimeout(() => {
@@ -20,7 +20,7 @@ const About = () => {
 				<div className="col-span-1 xl:row-span-3">
 					<div className="grid-container">
 						<img
-							src="assets/sindhura2.png"
+							src="assets/sindhura.png"
 							alt="grid-1"
 							className="w-full sm:h-[276px] h-fit object-contain"
 						/>
@@ -28,9 +28,9 @@ const About = () => {
 						<div>
 							<p className="grid-headtext">Hi, I’m Sindhura Shivaprasad</p>
 							<p className="grid-subtext">
-								With 12 years of experience, I have honed my skills in both
-								frontend and backend dev, creating dynamic and responsive
-								websites.
+								With almost 3 years of experience, I have honed my skills in
+								both frontend and backend development along with devops,
+								creating dynamic and responsive websites.
 							</p>
 						</div>
 					</div>
@@ -48,7 +48,7 @@ const About = () => {
 							<p className="grid-headtext">Tech Stack</p>
 							<p className="grid-subtext">
 								I specialize in a variety of languages, frameworks, and tools
-								that allow me to build robust and scalable applications
+								that allow me to build robust and scalable applications.
 							</p>
 						</div>
 					</div>
@@ -80,8 +80,8 @@ const About = () => {
 						<div>
 							<p className="grid-headtext">I’m very flexible with locations</p>
 							<p className="grid-subtext">
-								I&apos;m a Masters's student based in Chemnitz, Germany and open
-								to work.
+								I&apos;m a Masters's Thesis student based in Chemnitz, Germany
+								and open to work.
 							</p>
 							<Button name="Contact Me" isBeam containerClass="w-full mt-10" />
 						</div>
@@ -115,6 +115,7 @@ const About = () => {
 
 						<div className="space-y-2">
 							<p className="grid-subtext text-center">Contact me</p>
+							{/* biome-ignore lint/a11y/useKeyWithClickEvents: <explanation> */}
 							<div
 								className="copy-container cursor-pointer"
 								onClick={handleCopy}
