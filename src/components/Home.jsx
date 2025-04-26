@@ -28,7 +28,7 @@ const Home = () => {
 				<p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
 					Hi, I am Sindhura <span className="waving-hand">👋</span>
 				</p>
-				<p className="hero_tag text-gray_gradient">
+				<p className="home_tag text-gray_gradient">
 					Products. Brands. Built Right.
 				</p>
 			</div>
