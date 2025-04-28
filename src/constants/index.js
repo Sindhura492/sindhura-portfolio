@@ -160,13 +160,13 @@ export const myProjects = [
 		],
 	},
 	{
-		title: "BPMN HR Dashboard",
-		desc: "The BPMN dashboard for HRs is a chatbot that leverages OpenAI's API to assist HR professionals in creating BPMN diagrams for processes such as hiring, employee onboarding, termination, and leave management. It provides templates for ease of use, and users can modify, save, and organize the diagrams in folders.(In Progress)",
+		title: "Whisk - AI Job Search Assistant",
+		desc: "Whisk is an AI-powered chatbot application designed to assist users with real-time communication and automated responses. It leverages cutting-edge technologies to provide personalized experiences through a conversational interface, offering features such as messaging, personalized recommendations, and intelligent assistance.",
 		subdesc:
-			"Built using TypeScript and Tailwind CSS for the frontend, and Node.js for the backend, with OpenAI's API integrated into the chatbot for enhanced functionality.",
+			"Built using TypeScript and Tailwind CSS for the frontend, and Node.js for the backend, with Hugging Face's API integrated into the chatbot for enhanced functionality.",
 
-		texture: "/textures/project/bpmn.mp4",
-		logo: "/assets/bpmn_logo.png",
+		texture: "/textures/project/whisk.mp4",
+		logo: "/assets/whisk.png",
 		logoStyle: {
 			backgroundColor: "#000000",
 			border: "0.2px solid #0E2D58",
