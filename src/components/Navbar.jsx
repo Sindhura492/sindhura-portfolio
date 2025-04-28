@@ -47,7 +47,7 @@ const Navbar = () => {
 						<NavItems />
 						<button
 							type="button"
-							href="/path-to-your-resume.pdf"
+							href="/resume/Sindhura_Shivaprasad_CV.pdf"
 							download
 							className="text-neutral-400 hover:text-white transition-colors ml-5 px-4 py-2 border border-neutral-400 rounded-lg hover:bg-neutral-700 flex items-center space-x-2 animate-bounce"
 						>
@@ -66,7 +66,7 @@ const Navbar = () => {
 					<NavItems onClick={closeMenu} />
 					<button
 						type="button"
-						href="/path-to-your-resume.pdf"
+						href="/resume/Sindhura_Shivaprasad_CV.pdf"
 						download
 						className="text-neutral-400 hover:text-white transition-colors ml-5 mt-7 px-4 py-2 border border-neutral-400 rounded-lg hover:bg-neutral-700 flex items-center space-x-2 animate-bounce"
 					>
