@@ -63,17 +63,7 @@ const Navbar = () => {
 			<div className={`nav-sidebar ${isOpen ? "max-h-screen" : "max-h-0"}`}>
 				<nav className="p-5">
 					<NavItems onClick={closeMenu} />
-					<a
-						href="/resume/Sindhura_Shivaprasad_CV.pdf"
-						download
-						className="text-neutral-400 hover:text-white transition-colors ml-5 mt-7 px-4 py-2 border border-neutral-400 rounded-lg hover:bg-neutral-700 flex items-center space-x-2 animate-bounce"
-					>
-						<span className="relative flex h-3 w-3">
-							<span className="btn-ping" />
-							<span className="btn-ping_dot absolute inset-0 bg-blue-500 rounded-full animate-ping" />
-						</span>
-						<span>Download My CV</span>
-					</a>
+					
 				</nav>
 			</div>
 		</header>
