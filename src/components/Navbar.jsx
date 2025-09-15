@@ -45,7 +45,7 @@ const Navbar = () => {
 
 					<nav className="sm:flex hidden">
 						<NavItems />
-						<a
+						{/* <a
 							href="/resume/Sindhura_Shivaprasad_CV.pdf"
 							download
 							className="text-neutral-400 hover:text-white transition-colors ml-5 mt-3 px-4 py-2 border border-neutral-400 rounded-lg hover:bg-neutral-700 flex items-center space-x-2 animate-bounce"
@@ -55,7 +55,7 @@ const Navbar = () => {
 								<span className="btn-ping_dot absolute inset-0 bg-blue-500 rounded-full animate-ping" />
 							</span>
 							<span>Download My CV</span>
-						</a>
+						</a> */}
 					</nav>
 				</div>
 			</div>
