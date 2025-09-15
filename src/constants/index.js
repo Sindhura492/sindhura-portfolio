@@ -271,33 +271,34 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 
 export const workExperiences = [
 	{
-		id: 1,
-		name: "Fraunhofer FOKUS , Berlin",
-		pos: "Research Student",
-		duration: "05/2024 - Present",
-		title:
-			"Contributed to knowledge graph development for generating handover action predictions and frontend development using Next.js. Participated in developing an XApp for cellular handover, focusing on enhancing network performance.",
-		icon: "/assets/icon.webp",
-		image: "/assets/waving.png",
-	},
+  id: 1,
+  name: "Fraunhofer FOKUS , Berlin",
+  pos: "Research Student",
+  duration: "05/2024 - Present",
+  title: "Presented research at IEEE NetSoft 2025, improving prediction accuracy by 20% and decision efficiency by 30%.\nDeveloped performance tracking for cellular handover, cutting response time by 23%.\nStandardized observability with consistent measurement practices and quality checks.\nEnabled transparent monitoring, faster troubleshooting, and data-driven decision-making.",
+  icon: "/assets/icon.webp",
+  image: "/assets/waving.png",
+},
+
 	{
-		id: 2,
-		name: "Rakuten, Bengaluru(India)",
-		pos: "Associate Software Engineer",
-		duration: "12/2022 - 07/2023",
-		title:
-			"Promoted to Associate Software Engineer, leading the development of a secure web app with ReactJS, Django, and PostgreSQL. Spearheaded a Ruby-to-Python migration and designed an HR Management Tool. Optimized media handling and document management.",
-		icon: "/assets/rakuten.svg",
-		image: "/assets/promotion.png",
-	},
+  id: 2,
+  name: "Rakuten, Bengaluru (India)",
+  pos: "Associate Software Engineer",
+  duration: "12/2022 - 07/2023",
+  title:
+    "Developed scalable payment services for Rakuten Pay, ensuring reliable transaction handling.\nBuilt and maintained enterprise CRM applications with reusable design systems.\nLed a Ruby-to-Python migration that improved delivery speed by 22%.\nEnhanced user experience through optimized media handling and document management.",
+  icon: "/assets/rakuten.svg",
+  image: "/assets/promotion.png",
+},
+
 	{
-		id: 3,
-		name: "Rakuten, Bengaluru(India)",
-		pos: "Technical Intern",
-		duration: "03/2022 - 12/2022",
-		title:
-			"Contributed to 4 major agile projects, including an Employee Feedback Platform with Python, Flask, Plotly, and Dash, and a Role-Based Web App with Python, Django, and MySQL. Designed a dynamic Bootstrap website for an internal brand event, combining creativity with functionality.",
-		icon: "/assets/rakuten.svg",
+  id: 3,
+  name: "Rakuten, Bengaluru (India)",
+  pos: "Technical Intern (Full-Stack)",
+  duration: "03/2022 - 11/2022",
+  title:
+    "Spearheaded development of a Role-Based Access Control platform, reducing unauthorized access by 40%.\nBuilt HR Management and Feedback tools that streamlined workflows for 10,000+ employees.\nDeveloped modular, responsive internal platforms ensuring UI/UX consistency and scalability.\nImproved release quality by introducing automated testing and contributing to Agile workflows.",
+  icon: "/assets/rakuten.svg",
 		image: "/assets/working.png",
 	},
 	{
