@@ -286,7 +286,7 @@ export const workExperiences = [
   pos: "Associate Software Engineer",
   duration: "12/2022 - 07/2023",
   title:
-    "Developed scalable payment services for Rakuten Pay, ensuring reliable transaction handling.\nBuilt and maintained enterprise CRM applications with reusable design systems.\nLed a Ruby-to-Python migration that improved delivery speed by 22%.\nEnhanced user experience through optimized media handling and document management.",
+    "Developed scalable payment services, ensuring reliable transaction handling.\nBuilt and maintained enterprise CRM applications with reusable design systems.\nLed a Ruby-to-Python migration that improved delivery speed by 22%.\nEnhanced user experience through optimized media handling and document management.",
   icon: "/assets/rakuten.svg",
   image: "/assets/promotion.png",
 },
